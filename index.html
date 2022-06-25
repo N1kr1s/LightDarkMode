@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Template</title>
+  </head>
+  <body>
+    <div class="theme-switch-wrapper">
+      <span id="toggleIcon">
+        <i class="fa-solid fa-sun"></i>
+      </span>
+      <label for="checkbox" class="theme-switch">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects"> Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+      <div class="title-group">
+        <h1>Custom Title Here</h1>
+        <h2>Welcome to the Website!</h2>
+      </div>
+    </section>
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Innovate the Web</h2>
+          <img
+            src="./img/undraw_proud_coder_light.svg"
+            alt="woman"
+            id="image1"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Solve the problems</h2>
+          <img
+            src="./img/undraw_feeling_proud_light.svg"
+            alt="dude sits"
+            id="image2"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Conceptualize</h2>
+          <img
+            src="./img/undraw_conceptual_idea_light.svg"
+            alt="woman walks"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt outline</button>
+        <button class="outline">Disabled</button>
+      </div>
+      <div class="textBox" id="textBox">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+          praesentium! Non eveniet voluptas optio velit accusamus iste veritatis
+          ex assumenda facere accusantium adipisci, perspiciatis culpa
+          voluptate. Enim similique sed eius.
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fa-brands fa-github-alt"></i>
+        <i class="fa-brands fa-codepen"></i>
+        <i class="fa-brands fa-medium"></i>
+        <i class="fa-brands fa-instagram-square"></i>
+        <i class="fa-brands fa-youtube-square"></i>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
